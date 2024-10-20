@@ -48,7 +48,7 @@ Categorical variable representing the neighborhood or district.
  Any missing values were handled through Random Imputaion.
 
 - `Categorical Encoding:`
- Categorical features were encoded using One-Hot Encoding.
+ Categorical features were encoded using LabelEncoding.
 
 - `Feature Scaling:`
  Numerical features were scaled using Normalization to improve model performance.
