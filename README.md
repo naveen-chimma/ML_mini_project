@@ -19,6 +19,7 @@ This project implements multiple linear regression to predict house prices based
      2. `Test Accuracy`
 - `Results`
 - `Conclusion`
+- `Future Work`
   
 **Introduction**
 
@@ -270,12 +271,16 @@ Results of Lasso and Ridge regression models compared to the baseline multiple l
 
 **Summary of findings:**
 
-- Tables or plots showing the performance of each model.
+- Baseline Model Performance: The multiple linear regression model had a low R-squared score on both the training and testing datasets, indicating that it is not capturing much of the variance in house prices.
 
-- Insights on how regularization techniques impacted model performance.
+- Impact of Regularization: Lasso improved the model by shrinking some coefficients to zero, performing feature selection, while Ridge helped stabilize the model when multicollinearity was present.
 ## Conclusion
 
 - Summary of the project’s findings.
-- Discussion on the effectiveness of multiple linear regression and regularization methods for house price predictions.
-- Suggestions for future work, such as incorporating more features or exploring other algorthims.
+- The multiple linear regression model was able to explain a small percentage of the variance in house prices, with the Lasso and Ridge regularization techniques helping to mitigate overfitting. However, the low R² scores indicate that the model has room for improvement.
+## Future Work
+- Incorporate More Features: Including more relevant features (e.g., proximity to schools, crime rates) may improve model accuracy.
+- Try Non-linear Models: Exploring models like Random Forest or Gradient Boosting could capture more complex relationships between features and house prices.
+- Cross-validation: Implement cross-validation to ensure better generalization and model robustness.
+
 
