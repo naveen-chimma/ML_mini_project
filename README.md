@@ -39,8 +39,8 @@ The total number of bathrooms.
 Categorical variable representing the neighborhood or district.
 - `Year Built`:
  The year the house was constructed.
-- `Lot Size`:
- The area of the property lot.
+- `pricee`:
+ Total price of the area.
 
 **Data Preprocessing**
 
